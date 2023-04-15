@@ -1,5 +1,5 @@
 import React from 'react'
-import { Dosa, Food } from '../Asset'
+import { Dosa, Food } from '../../Asset'
 
 const Card = (props) => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import FooterGrid from './FooterGrid'
-import { FooterLink, FooterLink2 } from '../Constant'
+import FooterGrid from '../Homepage/FooterGrid'
+import { FooterLink, FooterLink2 } from '../../Constant'
 
 const Footer = () => {
   return (

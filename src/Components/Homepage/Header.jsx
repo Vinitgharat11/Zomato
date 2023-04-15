@@ -1,5 +1,5 @@
 import React from 'react'
-import { Biryani, Brand_logo, Hero_image2, Rolls } from '../Asset'
+import { Biryani, Brand_logo, Hero_image2, Rolls } from '../../Asset'
 import Navbar from './Navbar'
 
 const Header = () => {

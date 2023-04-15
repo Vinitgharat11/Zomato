@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterLink } from '../Constant'
+import { FooterLink } from '../../Constant'
 
 const FooterGrid = (props) => {
   return (

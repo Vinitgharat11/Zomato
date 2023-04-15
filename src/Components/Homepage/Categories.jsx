@@ -1,7 +1,7 @@
 import React from 'react'
-import Card from './Card'
-import { Dinning, Food, party } from '../Asset'
-import { CollectionData, Features } from '../Constant'
+import Card from '../Homepage/Card'
+import { Dinning, Food, party } from '../../Asset'
+import { CollectionData, Features } from '../../Constant'
 
 const Categories = () => {
   return (

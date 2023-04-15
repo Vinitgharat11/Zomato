@@ -1,4 +1,4 @@
-import {CTA, Categories, Collection, Footer, Header, Navbar, NearMe, PopularLocation} from './Components'
+import {CTA, Categories, Collection, Footer, Header, Navbar, NearMe, PopularLocation} from './Components/Homepage'
 
 
 function App() {

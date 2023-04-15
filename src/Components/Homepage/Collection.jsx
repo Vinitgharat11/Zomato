@@ -1,7 +1,7 @@
 import React from 'react'
-import CollectionCard from './CollectionCard'
-import { cafe, cricket, dinner, iftari } from '../Asset'
-import { CollectionData } from '../Constant'
+import CollectionCard from '../Homepage/CollectionCard'
+import { cafe, cricket, dinner, iftari } from '../../Asset'
+import { CollectionData } from '../../Constant'
 
 const Collection = () => {
   return (

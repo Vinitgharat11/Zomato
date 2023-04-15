@@ -1,6 +1,6 @@
 import React from 'react'
 import According from './According'
-import { Nearby } from '../Constant'
+import { Nearby } from '../../Constant'
 
 const NearMe = () => {
   return (

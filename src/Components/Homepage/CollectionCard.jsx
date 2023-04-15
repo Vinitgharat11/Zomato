@@ -1,6 +1,6 @@
 import React from 'react'
-import { iftari } from '../Asset'
-import { CollectionData } from '../Constant'
+import { iftari } from '../../Asset'
+import { CollectionData } from '../../Constant'
 
 const CollectionCard = (props) => {
     return (

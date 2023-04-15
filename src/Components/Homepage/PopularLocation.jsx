@@ -1,6 +1,6 @@
 import React from 'react'
 import Locations from './Locations'
-import { PopLocation } from '../Constant'
+import { PopLocation } from '../../Constant'
 
 const PopularLocation = () => {
   return (
