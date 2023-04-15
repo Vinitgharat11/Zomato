@@ -9,10 +9,10 @@ function App() {
       <Header/>
       <Categories/>
       <Collection/>
-      <PopularLocation/>
+      {/* <PopularLocation/>
       <CTA/>
       <NearMe/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }

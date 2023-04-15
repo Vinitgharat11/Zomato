@@ -1,6 +1,7 @@
 import React from 'react'
 import CollectionCard from './CollectionCard'
 import { cafe, cricket, dinner, iftari } from '../Asset'
+import { CollectionData } from '../Constant'
 
 const Collection = () => {
   return (
@@ -12,7 +13,21 @@ const Collection = () => {
         <p className=' font-Poppins '>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</p>
         <a className='text-red-500' href="/">All collection in Mumbai </a>
       </div>
- 
+
+
+<div className='flex justify-center mt-8 gap-5' >
+  {CollectionData.map(item =>(
+ <CollectionCard 
+ key={item.id}
+image ={item.image}
+title ={item.title}  
+Desc={item.Desc}
+  
+  /> 
+
+  ))}
+
+</div>
     </section>
   )
 }

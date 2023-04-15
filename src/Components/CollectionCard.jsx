@@ -1,27 +1,23 @@
 import React from 'react'
 import { iftari } from '../Asset'
+import { CollectionData } from '../Constant'
 
 const CollectionCard = (props) => {
-  return (
-    <section className='card font-Poppins '>
-    <div className=''>
-      <img className='food h-[300px]  ' src={props.img} alt="" />
-    </div>
-    <div className='ml-3 pt-1'>
-      <h4 className='text-[20px]'>
-        {props.title}
-      </h4>
-    </div>
-    <div className='ml-3'>
-      <h6 className='text-[15px]'>
-        {props.description}
-      </h6>
-    </div>
-
-</section>
-
-    
-  )
+    return (
+        <section className=' font-Poppins relative '>
+            {/* {CollectionData.map(item => ( */}
+                <div className=''>
+                    <img className='w-[240] h-[350px] rounded-t-lg brightness-50' src={props.image} alt="" />
+                </div>
+            {/* ))} */}
+            {/* {CollectionData.map(item => ( */}
+                <div className=' absolute bottom-1 ml-3'>
+                    <p className='text-white'>{props.title}</p>
+                    <p className='text-white '>{props.Desc}</p>
+                </div>
+            {/* ))} */}
+        </section>
+    )
 }
 
 export default CollectionCard
