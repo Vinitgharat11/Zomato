@@ -100,6 +100,24 @@ export const PopLocation = [
     },
 ]
 
+export const Nearby =[
+    {
+        title:'Popular cuisines near me',
+        contain:"Bakery food near me *Beverages food near me ⚫Biryani food near me ⚫Burger food near me ⚫Chinese food near me ⚫Continental food near me ⚫Desserts food near me ⚫Ice Cream food near me ⚫Kebab food near me ⚫ Maharashtrian food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me"
+    },
+    {
+        title:'Popular restaurant types near me',
+        contain:'Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near mePubs near meQuick Bites near meShacks near meSweet Shops near me'
+    },
+    {
+        title:'Top Restaurant Chains',
+        contain:"BikanervalaBiryani BluesBurger KingDomino'sDunkin' DonutsKFCKrispy KremeMcDonald'sPizza HutWOW! Momo"
+    },
+    {
+        title:'Cities We Deliver To'
+    },
+]
+
 
 export const Nearme = [
     {
@@ -169,3 +187,33 @@ export const FooterLink = [
     },
   
 ]
+
+export const FooterLink2 = [
+    {
+        id: "Link1",
+        title:"Who we are"
+    },
+    {
+        id: "Link2",
+        title:"Blog"
+    },
+    {
+        id: "Link2",
+        title:"Work with us"
+    },
+    {
+        id: "Link1",
+        title:"Investor relations"
+    },
+    {
+        id: "Link1",
+        title:"Report Fraud"
+    },
+    {
+        id: "Link1",
+        title:"Contact-us"
+    },
+  
+]
+
+

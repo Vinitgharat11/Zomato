@@ -12,7 +12,7 @@ function App() {
      <PopularLocation/>
        {/* <CTA/> */}
       <NearMe/>
-      {/* <Footer/>  */}
+      <Footer/> 
   </>
     
     
