@@ -2,9 +2,14 @@ import React from 'react'
 
 const NearMe = () => {
   return (
-    <div>
-      Near me
-    </div>
+    <section className='h-96'>
+      <div>
+        <p>Explore options near me</p>
+      </div>
+      <div>
+       
+      </div>
+    </section>
   )
 }
 

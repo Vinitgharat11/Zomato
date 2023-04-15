@@ -5,7 +5,7 @@ import { CollectionData } from '../Constant'
 
 const Collection = () => {
   return (
-    <section className='w-full h-10'>
+    <section className='w-full'>
       <div className='mx-36 pt-14'>
         <h2 className='text-[33px] font-Poppins'>Collection</h2>
       </div>
@@ -15,19 +15,16 @@ const Collection = () => {
       </div>
 
 
-<div className='flex justify-center mt-8 gap-5' >
-  {CollectionData.map(item =>(
- <CollectionCard 
- key={item.id}
-image ={item.image}
-title ={item.title}  
-Desc={item.Desc}
-  
-  /> 
-
-  ))}
-
-</div>
+      <div className='flex justify-center mt-8 gap-5' >
+        {CollectionData.map(item => (
+          <CollectionCard
+            key={item.id}
+            image={item.image}
+            title={item.title}
+            Desc={item.Desc}
+          />
+        ))}
+      </div>
     </section>
   )
 }

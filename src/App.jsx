@@ -4,16 +4,18 @@ import {CTA, Categories, Collection, Footer, Header, Navbar, NearMe, PopularLoca
 function App() {
 
   return (
-    <div>
-      {/*   <Navbar/> */}
-      <Header/>
+  <>
+    {/*   <Navbar/> */}
+    <Header/>
       <Categories/>
       <Collection/>
-      {/* <PopularLocation/>
-      <CTA/>
+     <PopularLocation/>
+       {/* <CTA/> */}
       <NearMe/>
-      <Footer/> */}
-    </div>
+      {/* <Footer/>  */}
+  </>
+    
+    
   )
 }
 
